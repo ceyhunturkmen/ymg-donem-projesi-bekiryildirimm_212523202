@@ -1,4 +1,5 @@
 ﻿using Android.App;
+using Android.Content;
 using Android.OS;
 using Android.Runtime;
 using Android.Widget;
@@ -26,7 +27,8 @@ namespace AndroidSqlite
             db = new DataBase();
             db.createDataBase();
             lstData = FindViewById<ListView>(Resource.Id.listView1);
-            
+            var intent = new Intent(this, typeof(Resource.Layout.list_view_dataTemplate));
+            StartActivity(intent);
             var edtName = FindViewById<EditText>(Resource.Id.edtname);
             var edtAge = FindViewById<EditText>(Resource.Id.edtage);
             var edtCity = FindViewById<EditText>(Resource.Id.edtcity);
