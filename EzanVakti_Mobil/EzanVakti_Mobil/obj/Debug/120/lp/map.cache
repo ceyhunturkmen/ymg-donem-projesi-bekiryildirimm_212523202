@@ -1,4 +1,3 @@
-SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
 Xamarin.AndroidX.AppCompat.AppCompatResources.dll
@@ -74,3 +73,4 @@ androidx.appcompat.appcompat-resources.aar
 androidx.appcompat.appcompat.aar
 com.google.android.material.material.aar
 androidx.browser.browser.aar
+SQLitePCLRaw.lib.e_sqlite3.android.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M9TPtBZ9oP4NOVAN4bzk8EP2jxhW4YJXabGcNMWn5qOMtJvhVf7n0xWqGF8xZo6CW89dcHYrWHiqBi3lEBDqGg==",
+  "dgSpecHash": "iMkj9dw1E+hxim7mlf23+8AYaj1o+vKLQ4qZMIhNzBesEeMWety6x1SBPmPHdOQuvuT+CDUu5W9ltQYJ6/CdWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\manas\\Desktop\\mobil_ezanvakti\\EzanVakti_Mobil\\EzanVakti_Mobil.csproj",
+  "projectFilePath": "C:\\Users\\manas\\Desktop\\EzanVakti_Mobil\\EzanVakti_Mobil\\EzanVakti_Mobil\\EzanVakti_Mobil.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\manas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\manas\\.nuget\\packages\\sqlite-net\\1.6.292\\sqlite-net.1.6.292.nupkg.sha512",
