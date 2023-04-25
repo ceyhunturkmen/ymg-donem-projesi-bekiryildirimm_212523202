@@ -8,11 +8,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using SQLite;
 namespace EzanVakti_Mobil.Resources
 {
+    [Table("NamazVakti")]
     public class namazVaktiData
     {
+        [PrimaryKey,AutoIncrement]
+        public int Id { get; set; }
         public string imsak { get; set; }
         public string gunes { get; set; }
         public string ogle { get; set; }

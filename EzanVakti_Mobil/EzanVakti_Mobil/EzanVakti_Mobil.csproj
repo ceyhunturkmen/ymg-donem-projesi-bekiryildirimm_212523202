@@ -107,9 +107,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json">
       <Version>13.0.3</Version>
     </PackageReference>
@@ -125,6 +122,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\first_screen.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\circle.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

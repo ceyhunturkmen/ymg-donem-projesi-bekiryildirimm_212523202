@@ -34,7 +34,8 @@ namespace EzanVakti_Mobil
                
                 var location =await GetCurrentLocation();
                 namazVaktiApi namazVakti = new namazVaktiApi(location.Latitude.ToString(), location.Longitude.ToString(), dt.Month, dt.Year);
-                
+                namazVakti.EzanSqlite();
+                SetContentView(Resource.Layout.activity_main);
             };
            
             // Create your application here

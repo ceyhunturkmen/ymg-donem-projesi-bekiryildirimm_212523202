@@ -4,4 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+        <ImageView
+        android:id="@+id/circle"
+       android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:scaleType="matrix"
+           android:layout_marginRight="0sp"
+        android:src="@drawable/circle"
+       
+       
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+        android:id="@+id/txtvw1"
+        android:text="text"
+        android:gravity="center"
+        />
+    
 </RelativeLayout>
