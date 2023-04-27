@@ -3,4 +3,9 @@
     <color name="colorPrimary">#2c3e50</color>
     <color name="colorPrimaryDark">#1B3147</color>
     <color name="colorAccent">#3498db</color>
+	<color name="clrToolbarTransparency">#66000000</color>
+	<color name="clrPrayerTimeIcon">#ffffffff</color>
+	<color name="clrPrayerTimePastIcon">#ffbcbcbc</color>
+	<color name="clrBottomBG">#ff111720</color>
+	<color name="clrPrimaryTransparent20">#33f0b648</color>
 </resources>

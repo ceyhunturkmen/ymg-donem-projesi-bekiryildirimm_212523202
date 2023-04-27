@@ -11,6 +11,7 @@ public class MonoPackageManager_Resources {
 		"SQLitePCLRaw.provider.e_sqlite3.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
+		"Xamarin.AndroidX.Annotation.Experimental.dll",
 		"Xamarin.AndroidX.AppCompat.AppCompatResources.dll",
 		"Xamarin.AndroidX.AppCompat.dll",
 		"Xamarin.AndroidX.Arch.Core.Common.dll",
@@ -19,10 +20,15 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.Browser.dll",
 		"Xamarin.AndroidX.CardView.dll",
 		"Xamarin.AndroidX.Collection.dll",
+		"Xamarin.AndroidX.Concurrent.Futures.dll",
+		"Xamarin.AndroidX.ConstraintLayout.Core.dll",
+		"Xamarin.AndroidX.ConstraintLayout.dll",
 		"Xamarin.AndroidX.CoordinatorLayout.dll",
+		"Xamarin.AndroidX.Core.Core.Ktx.dll",
 		"Xamarin.AndroidX.Core.dll",
 		"Xamarin.AndroidX.CursorAdapter.dll",
 		"Xamarin.AndroidX.CustomView.dll",
+		"Xamarin.AndroidX.CustomView.PoolingContainer.dll",
 		"Xamarin.AndroidX.DocumentFile.dll",
 		"Xamarin.AndroidX.DrawerLayout.dll",
 		"Xamarin.AndroidX.Fragment.dll",
@@ -50,6 +56,9 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Essentials.dll",
 		"Xamarin.Google.Android.Material.dll",
 		"Xamarin.Google.Guava.ListenableFuture.dll",
+		"Xamarin.Jetbrains.Annotations.dll",
+		"Xamarin.Kotlin.StdLib.Common.dll",
+		"Xamarin.Kotlin.StdLib.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

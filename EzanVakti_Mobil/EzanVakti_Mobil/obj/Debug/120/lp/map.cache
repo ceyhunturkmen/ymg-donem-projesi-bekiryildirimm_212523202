@@ -1,5 +1,7 @@
+SQLitePCLRaw.lib.e_sqlite3.android.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
+Xamarin.AndroidX.Annotation.Experimental.dll
 Xamarin.AndroidX.AppCompat.AppCompatResources.dll
 Xamarin.AndroidX.AppCompat.dll
 Xamarin.AndroidX.Arch.Core.Common.dll
@@ -8,10 +10,15 @@ Xamarin.AndroidX.AsyncLayoutInflater.dll
 Xamarin.AndroidX.Browser.dll
 Xamarin.AndroidX.CardView.dll
 Xamarin.AndroidX.Collection.dll
+Xamarin.AndroidX.Concurrent.Futures.dll
+Xamarin.AndroidX.ConstraintLayout.Core.dll
+Xamarin.AndroidX.ConstraintLayout.dll
 Xamarin.AndroidX.CoordinatorLayout.dll
+Xamarin.AndroidX.Core.Core.Ktx.dll
 Xamarin.AndroidX.Core.dll
 Xamarin.AndroidX.CursorAdapter.dll
 Xamarin.AndroidX.CustomView.dll
+Xamarin.AndroidX.CustomView.PoolingContainer.dll
 Xamarin.AndroidX.DocumentFile.dll
 Xamarin.AndroidX.DrawerLayout.dll
 Xamarin.AndroidX.Fragment.dll
@@ -39,8 +46,12 @@ Xamarin.AndroidX.ViewPager.dll
 Xamarin.Essentials.dll
 Xamarin.Google.Android.Material.dll
 Xamarin.Google.Guava.ListenableFuture.dll
+Xamarin.Jetbrains.Annotations.dll
+Xamarin.Kotlin.StdLib.dll
 androidx.versionedparcelable.versionedparcelable.aar
+androidx.arch.core.core-runtime.aar
 androidx.lifecycle.lifecycle-runtime.aar
+androidx.annotation.annotation-experimental.aar
 androidx.core.core.aar
 androidx.customview.customview.aar
 androidx.viewpager.viewpager.aar
@@ -49,7 +60,6 @@ androidx.interpolator.interpolator.aar
 androidx.vectordrawable.vectordrawable-animated.aar
 androidx.savedstate.savedstate.aar
 androidx.lifecycle.lifecycle-viewmodel.aar
-androidx.arch.core.core-runtime.aar
 androidx.lifecycle.lifecycle-livedata-core.aar
 androidx.loader.loader.aar
 androidx.lifecycle.lifecycle-viewmodel-savedstate.aar
@@ -58,6 +68,8 @@ androidx.fragment.fragment.aar
 androidx.transition.transition.aar
 androidx.swiperefreshlayout.swiperefreshlayout.aar
 androidx.slidingpanelayout.slidingpanelayout.aar
+androidx.core.core-ktx.aar
+androidx.customview.customview-poolingcontainer.aar
 androidx.recyclerview.recyclerview.aar
 androidx.print.print.aar
 androidx.localbroadcastmanager.localbroadcastmanager.aar
@@ -73,4 +85,4 @@ androidx.appcompat.appcompat-resources.aar
 androidx.appcompat.appcompat.aar
 com.google.android.material.material.aar
 androidx.browser.browser.aar
-SQLitePCLRaw.lib.e_sqlite3.android.dll
+androidx.constraintlayout.constraintlayout.aar

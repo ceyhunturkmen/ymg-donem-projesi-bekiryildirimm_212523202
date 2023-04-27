@@ -31,13 +31,13 @@ namespace EzanVakti_Mobil
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
-            text=FindViewById<TextView>(Resource.Id.txtvw1);
+            text=FindViewById<TextView>(Resource.Id.AnaSayfaTarih);
          //   text.Text = "merhaba";
             DateTime dt = DateTime.Now;
 
             var location = await GetCurrentLocation();
             namazVaktiApi namazVakti = new namazVaktiApi(location.Latitude.ToString(), location.Longitude.ToString(), dt.Month, dt.Year);
-            //   FindViewById<TextView>(Resource.Id.txtvw1).Text = namazVaktiApi.enlem + " " + namazVaktiApi.boylam + " " + namazVaktiApi.ay + " " + namazVaktiApi.yil;
+              // FindViewById<TextView>(Resource.Id.AnaSayfaTarih).Text = namazVaktiApi.enlem + " " + namazVaktiApi.boylam + " " + namazVaktiApi.ay + " " + namazVaktiApi.yil;
              namazVakti.EzanSqlite();
             ezan = new namazVaktiData();
             data=new List<namazVaktiData>();
