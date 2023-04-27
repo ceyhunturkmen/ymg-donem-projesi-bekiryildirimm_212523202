@@ -26,6 +26,7 @@ namespace EzanVakti_Mobil
         DateTime bugun = DateTime.Now;
         namazVaktiData ezan;
         TextView text;
+        Timer timer;
         protected async override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -34,16 +35,17 @@ namespace EzanVakti_Mobil
             text=FindViewById<TextView>(Resource.Id.AnaSayfaTarih);
          //   text.Text = "merhaba";
             DateTime dt = DateTime.Now;
-
+            
+            //TimerCallback callback = new TimerCallback(CheckStatus);
+         
+           
             var location = await GetCurrentLocation();
             namazVaktiApi namazVakti = new namazVaktiApi(location.Latitude.ToString(), location.Longitude.ToString(), dt.Month, dt.Year);
               // FindViewById<TextView>(Resource.Id.AnaSayfaTarih).Text = namazVaktiApi.enlem + " " + namazVaktiApi.boylam + " " + namazVaktiApi.ay + " " + namazVaktiApi.yil;
              namazVakti.EzanSqlite();
             ezan = new namazVaktiData();
             data=new List<namazVaktiData>();
-        //    text.Text= namazVakti.enlem + "\n" + namazVakti.boylam + "\n" + namazVakti.ay + "\n" + namazVakti.yil;
-            //  text.Text = location.Latitude + " " + location.Longitude;
-          //  text.Text = dt.Year.ToString();
+
               veriTabani = new veritabani();
               data = veriTabani.selectTable("NamazVakti.db");
        
@@ -58,52 +60,35 @@ namespace EzanVakti_Mobil
                 }
             
              text.Text = "  " + ezan.GregDay + "\n" + ezan.GregAylar + "\n" + ezan.GregYear;
-            /*    FindViewById<Button>(Resource.Id.btnOk).Click += async delegate
-                {
-                    DateTime dt = DateTime.Now;
-
-                    var location = await GetCurrentLocation();
-                    namazVaktiApi namazVakti = new namazVaktiApi(location.Latitude.ToString(), location.Longitude.ToString(), dt.Month, dt.Year);
-                 //   FindViewById<TextView>(Resource.Id.txtvw1).Text = namazVaktiApi.enlem + " " + namazVaktiApi.boylam + " " + namazVaktiApi.ay + " " + namazVaktiApi.yil;
-                   // namazVakti.EzanSqlite();
-                    SetContentView(Resource.Layout.activity_main);
-                    text.Text = "merhaba";
-                 //  text.Text= namazVaktiApi.enlem + " " + namazVaktiApi.boylam + " " + namazVaktiApi.ay + " " + namazVaktiApi.yil;
-                    /*  veriTabani = new veritabani();
-                      data = veriTabani.selectTable("NamazVakti.db");
-                      foreach (var item in data)
-                      {
-                          if (item.GregDay == bugun.Day)
-                          {
-                              ezan = item;
-                          }
-                      }
-                      FindViewById<TextView>(Resource.Id.txtvw1).Text = "  " + ezan.GregDay + "\n" + ezan.GregAylar + "\n" + ezan.GregYear;
-                };*/
-            // Set our view from the "main" layout resource
-            // SetContentView(Resource.Layout.activity_main);
-            /*      Intent intent = new Intent(this, typeof(GirişEkrani));
-                  this.StartActivity(intent);*/
-
-
-            /*
-             veriTabani = new veritabani();
-             data=veriTabani.selectTable("NamazVakti.db");
-             foreach(var item in data)
-             {
-                 if(item.GregDay==bugun.Day)
-                 {
-                     ezan=item;
-                 }
-             }
-             FindViewById<TextView>(Resource.Id.txtvw1).Text= "  " + ezan.GregDay + "\n" + ezan.GregAylar + "\n" + ezan.GregYear;*/
-
+            FindViewById<TextView>(Resource.Id.tvImsak).Text = ezan.imsak;
+            FindViewById<TextView>(Resource.Id.tvGunes).Text = ezan.gunes;
+            FindViewById<TextView>(Resource.Id.tvOgle).Text = ezan.ogle;
+            FindViewById<TextView>(Resource.Id.tvIkindi).Text = ezan.ikindi;
+            FindViewById<TextView>(Resource.Id.tvAksam).Text = ezan.aksam;
+            FindViewById<TextView>(Resource.Id.tvYatsi).Text = ezan.yatsi;
+            //FindViewById<TextView>(Resource.Id.mainYerelSaat).Text =;
         }
+
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+       /* public static void CheckStatus(Object state)
+        {
+            DebugText debug = new DebugText(
+                "System.Threading.Timer"
+                , 5
+            );
+            TokenDataBase databaseRunTask = TempDataSource();
+            databaseRunTask.SaveDebugTextAsync(debug);
+        }*/
+        protected override void OnResume()
+        {
+            base.OnResume();
+         //   timer = new Timer(TimerCallback);
+           // timer.inter
         }
         async Task<Location> GetCurrentLocation()
         {

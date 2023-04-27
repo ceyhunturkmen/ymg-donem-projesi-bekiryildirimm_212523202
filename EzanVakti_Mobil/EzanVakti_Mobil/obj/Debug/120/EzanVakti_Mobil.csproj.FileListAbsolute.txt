@@ -740,3 +740,6 @@ C:\Users\manas\Desktop\mobil_ezanvakti\EzanVakti_Mobil\EzanVakti_Mobil\obj\Debug
 C:\Users\manas\Desktop\mobil_ezanvakti\EzanVakti_Mobil\EzanVakti_Mobil\obj\Debug\120\android\src\androidx\savedstate\R.java
 C:\Users\manas\Desktop\mobil_ezanvakti\EzanVakti_Mobil\EzanVakti_Mobil\obj\Debug\120\android\src\androidx\transition\R.java
 C:\Users\manas\Desktop\mobil_ezanvakti\EzanVakti_Mobil\EzanVakti_Mobil\obj\Debug\120\android\src\com\google\android\material\R.java
+C:\Users\manas\Desktop\mobil_ezanvakti\EzanVakti_Mobil\EzanVakti_Mobil\obj\Debug\120\res\layout\item_weekly_prayer_time.xml
+C:\Users\manas\Desktop\mobil_ezanvakti\EzanVakti_Mobil\EzanVakti_Mobil\obj\Debug\120\res\anim\layout_animation_slide_from_bottom.xml
+C:\Users\manas\Desktop\mobil_ezanvakti\EzanVakti_Mobil\EzanVakti_Mobil\obj\Debug\120\res\anim\item_animation_slide_from_bottom.xml

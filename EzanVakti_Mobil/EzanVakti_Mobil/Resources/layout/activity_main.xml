@@ -18,10 +18,10 @@
                             <androidx.appcompat.widget.AppCompatTextView android:text="text" android:textSize="14.0dip" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/mainTvLocationHijriDate"  android:background="?android:attr/selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1.0" android:onClick="onMainClick" />
                             <View android:layout_gravity="center" android:background="@color/clrPrayerTimePastIcon" android:layout_width="0.5dip" android:layout_height="match_parent" />
                             <androidx.appcompat.widget.AppCompatTextView android:text="text" android:textSize="14.0dip" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/AnaSayfaTarih" android:background="?android:attr/selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="3" android:layout_weight="1.0" android:onClick="onMainClick" />
-                            <View android:layout_gravity="center" android:background="@color/clrPrayerTimePastIcon" android:layout_width="0.5dip" android:layout_height="match_parent" />
+                            <View android:layout_gravity="center"  android:background="@color/clrPrayerTimePastIcon" android:layout_width="0.5dip" android:layout_height="match_parent" />
                             <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
                                 <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0dip" android:textColor="@android:color/white" android:id="@+id/mainTvLocalTime"  android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Yerel saat" android:textAlignment="center" />
-                                <androidx.appcompat.widget.AppCompatTextView android:text="text" android:textSize="14.0dip" android:textColor="@android:color/white" android:id="@+id/mainTvLocationTime" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center" />
+                                <androidx.appcompat.widget.AppCompatTextView android:text="text" android:textSize="14.0dip" android:textColor="@android:color/white" android:id="@+id/mainYerelSaat" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center" />
                             </androidx.appcompat.widget.LinearLayoutCompat>
                         </androidx.appcompat.widget.LinearLayoutCompat>
                     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -65,7 +65,7 @@
             <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:textColor="@android:color/white" android:ellipsize="end" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Akşam" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="center" />
             <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:textColor="@android:color/white" android:ellipsize="end" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Yatsı" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="center" />
         </androidx.appcompat.widget.LinearLayoutCompat>
-           
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerViewHaftalikVakitler" android:scrollbars="vertical" android:layoutAnimation="@anim/layout_animation_slide_from_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
              </androidx.appcompat.widget.LinearLayoutCompat>
       
     </androidx.core.widget.NestedScrollView>
