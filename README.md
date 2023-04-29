@@ -25,3 +25,4 @@ Kıble bulucu için iki mod sunuyoruz, pusula haritalarını (çevrimiçi) veya 
 - Mevcut yerden Kıble derecelerini hesaplayın. Kıble yönü bulma uygulaması, doğru Kıble yönü için android cihazınızın sensörünü kullanır. 
 
 ![DİYAGRAM](https://user-images.githubusercontent.com/116283119/235321514-31a1b963-78c9-4dd8-91eb-7c50a85675ed.png)
+![Opera Anlık Görüntü_2023-04-29_213630_docs google com](https://user-images.githubusercontent.com/116283119/235321592-2a927720-03e3-4bfd-ba9a-1a703eec3d61.png)
