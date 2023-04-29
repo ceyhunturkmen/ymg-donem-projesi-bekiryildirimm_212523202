@@ -7192,7 +7192,7 @@ public final class R {
     public static final int mainTvLocationHijriDate=0x7f0800ef;
     public static final int mainTvLocationRemainingTime=0x7f0800f0;
     public static final int mainTvLocationRemainingTimeStr=0x7f0800f1;
-    public static final int mainTvLocationTime=0x7f0800f2;
+    public static final int mainYerelSaat=0x7f0800f2;
     public static final int masked=0x7f0800f3;
     public static final int match_constraint=0x7f0800f4;
     public static final int match_parent=0x7f0800f5;
