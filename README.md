@@ -1,4 +1,6 @@
-Kıble pusulası - Kıble yönü uygulaması, Mekke'deki Kabe'nin harita pusulası üzerindeki yönünü bulmak için kullanılır. Kıble pusulası, kıble konumunu gerçek zamanlı olarak bulur ve dünyanın her yerinde kullanabilirsiniz.
+KIBLE PUSULA UGULAMASI
+
+Kıble yönü uygulaması, Mekke'deki Kabe'nin harita pusulası üzerindeki yönünü bulmak için kullanılır. Kıble pusulası, kıble konumunu gerçek zamanlı olarak bulur ve dünyanın her yerinde kullanabilirsiniz.
 GPS teknolojisi ile kıble yönünü hızlı ve tam olarak bulmanıza yardımcı olacaktır. Mevcut konumunuzu haritalarda göstermek için gps'i etkinleştirmeniz ve internete bağlanmanız gerekir. Yönü hareket ettirdiğinizde ve Mekke'deki Kabe'ye bağlandığınızda haritalar dönecek.
 Kıble bulucu için iki mod sunuyoruz, pusula haritalarını (çevrimiçi) veya kıble yön bulucu ile çevrimdışı olarak kullanabilirsiniz. Kıble haritalarını çevrimiçi modda bulmanızı öneririm. Çünkü uygulama gerçek zamanlı olarak harita pusulası üzerinde doğru konum ile aktif olacaktır.
 * Pusula yönü:
