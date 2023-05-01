@@ -19,7 +19,4 @@
 }
 
 # Make sure we keep annotations for CoordinatorLayout's DefaultBehavior and ViewPager's DecorView
--keepattributes AnnotationDefault,
-                RuntimeVisibleAnnotations,
-                RuntimeVisibleParameterAnnotations,
-                RuntimeVisibleTypeAnnotations
+-keepattributes *Annotation*

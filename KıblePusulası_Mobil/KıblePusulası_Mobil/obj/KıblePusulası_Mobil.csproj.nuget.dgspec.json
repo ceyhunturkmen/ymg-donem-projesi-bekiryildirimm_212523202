@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manas\\source\\repos\\ymg-donem-projesi-bekiryildirimm_212523202\\KıblePusulası_Mobil\\KıblePusulası_Mobil\\KıblePusulası_Mobil.csproj": {}
+    "C:\\Users\\manas\\Desktop\\Kıble_github\\KıblePusulası_Mobil\\KıblePusulası_Mobil\\KıblePusulası_Mobil.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manas\\source\\repos\\ymg-donem-projesi-bekiryildirimm_212523202\\KıblePusulası_Mobil\\KıblePusulası_Mobil\\KıblePusulası_Mobil.csproj": {
+    "C:\\Users\\manas\\Desktop\\Kıble_github\\KıblePusulası_Mobil\\KıblePusulası_Mobil\\KıblePusulası_Mobil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manas\\source\\repos\\ymg-donem-projesi-bekiryildirimm_212523202\\KıblePusulası_Mobil\\KıblePusulası_Mobil\\KıblePusulası_Mobil.csproj",
+        "projectUniqueName": "C:\\Users\\manas\\Desktop\\Kıble_github\\KıblePusulası_Mobil\\KıblePusulası_Mobil\\KıblePusulası_Mobil.csproj",
         "projectName": "KıblePusulası_Mobil",
-        "projectPath": "C:\\Users\\manas\\source\\repos\\ymg-donem-projesi-bekiryildirimm_212523202\\KıblePusulası_Mobil\\KıblePusulası_Mobil\\KıblePusulası_Mobil.csproj",
+        "projectPath": "C:\\Users\\manas\\Desktop\\Kıble_github\\KıblePusulası_Mobil\\KıblePusulası_Mobil\\KıblePusulası_Mobil.csproj",
         "packagesPath": "C:\\Users\\manas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manas\\source\\repos\\ymg-donem-projesi-bekiryildirimm_212523202\\KıblePusulası_Mobil\\KıblePusulası_Mobil\\obj\\",
+        "outputPath": "C:\\Users\\manas\\Desktop\\Kıble_github\\KıblePusulası_Mobil\\KıblePusulası_Mobil\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -40,15 +40,15 @@
           "dependencies": {
             "Xamarin.AndroidX.AppCompat": {
               "target": "Package",
-              "version": "[1.6.1, )"
+              "version": "[1.2.0.5, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.5, )"
+              "version": "[1.6.1, )"
             },
             "Xamarin.Google.Android.Material": {
               "target": "Package",
-              "version": "[1.8.0, )"
+              "version": "[1.0.0.1, )"
             }
           }
         }
