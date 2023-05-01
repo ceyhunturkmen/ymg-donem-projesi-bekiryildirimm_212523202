@@ -1,0 +1,47 @@
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        double lat, lon;
+        Console.Write("Enlemi girin: ");
+        lat = double.Parse(Console.ReadLine());
+        Console.Write("Boylamı girin: ");
+        lon = double.Parse(Console.ReadLine());
+
+        double latRad = deg2rad(lat);
+        double lonRad = deg2rad(lon);
+        double kaabaLatRad = deg2rad(21.4225);
+        double kaabaLonRad = deg2rad(39.8262);
+
+        double dLon = kaabaLonRad - lonRad;
+
+        double y = Math.Sin(dLon) * Math.Cos(kaabaLatRad);
+        double x = Math.Cos(latRad) * Math.Sin(kaabaLatRad)
+            - Math.Sin(latRad) * Math.Cos(kaabaLatRad) * Math.Cos(dLon);
+
+        double azimuth = Math.Atan2(y, x);
+
+        double kibleAcisi = rad2deg(azimuth);
+        if (Convert.ToDouble(kibleAcisi) < 0)
+        {
+            Console.WriteLine("Kıble açısı: " + (360 + kibleAcisi) + "°");
+        }
+        else
+        {
+            Console.WriteLine("Kıble açısı: " + kibleAcisi + "°");
+        }
+       
+    }
+
+    static double deg2rad(double deg)
+    {
+        return deg * (Math.PI / 180);
+    }
+
+    static double rad2deg(double rad)
+    {
+        return rad * (180 / Math.PI);
+    }
+}
