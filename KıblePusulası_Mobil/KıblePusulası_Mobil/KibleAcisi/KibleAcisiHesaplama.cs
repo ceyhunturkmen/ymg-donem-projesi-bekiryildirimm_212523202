@@ -13,5 +13,6 @@ namespace KıblePusulası_Mobil.KibleAciHesaplama
 {
     public class KibleAcisiHesaplama
     {
+
     }
 }
