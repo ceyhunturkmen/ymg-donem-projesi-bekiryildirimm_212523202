@@ -42,7 +42,7 @@ namespace KıblePusulası_Mobil
             var dt = e.Reading;
             a.Rotation =(360-(float)dt.HeadingMagneticNorth);
             b.Rotation = (360 - (float)dt.HeadingMagneticNorth+(float)SplashActivity1.derece);
-            txt1.Text = Convert.ToInt32(dt.HeadingMagneticNorth).ToString();
+            txt1.Text = Convert.ToInt32(dt.HeadingMagneticNorth).ToString()+ "°";
 
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
