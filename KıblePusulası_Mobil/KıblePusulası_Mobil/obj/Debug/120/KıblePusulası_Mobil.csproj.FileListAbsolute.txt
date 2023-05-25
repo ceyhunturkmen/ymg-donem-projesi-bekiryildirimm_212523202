@@ -917,3 +917,4 @@ C:\Users\manas\Desktop\Kıble_github\KıblePusulası_Mobil\KıblePusulası_Mobil
 C:\Users\manas\Desktop\Kıble_github\KıblePusulası_Mobil\KıblePusulası_Mobil\obj\Debug\120\res\drawable\iste__logo.png
 C:\Users\manas\Desktop\Kıble_github\KıblePusulası_Mobil\KıblePusulası_Mobil\obj\Debug\120\res\drawable\splash_screen.xml
 C:\Users\manas\Desktop\Kıble_github\KıblePusulası_Mobil\KıblePusulası_Mobil\obj\Debug\120\android\src\crc6432572f8271a6e692\SplashActivity1.java
+C:\Users\manas\Desktop\Kıble_github\KıblePusulası_Mobil\KıblePusulası_Mobil\obj\Debug\120\res\drawable\compass_kabe.png

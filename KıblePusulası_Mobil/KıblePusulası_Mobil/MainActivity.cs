@@ -18,7 +18,7 @@ namespace KıblePusulası_Mobil
     public class MainActivity : AppCompatActivity
     {
         CancellationTokenSource cts;
-        AppCompatImageView a,b,c;
+        AppCompatImageView a,b,c,d;
         AppCompatTextView txt1;
         double derece;
         protected async override void OnCreate(Bundle savedInstanceState)
@@ -29,6 +29,7 @@ namespace KıblePusulası_Mobil
             SetContentView(Resource.Layout.activity_pusula);
             a = FindViewById<AppCompatImageView>(Resource.Id.compassRlytCompassTop);
             b = FindViewById<AppCompatImageView>(Resource.Id.compassRlytCompassArrow);
+            d= FindViewById<AppCompatImageView>(Resource.Id.compassImgKaaba);
             txt1 = FindViewById<AppCompatTextView>(Resource.Id.compassTvDegree);
           //  var location = await GetCurrentLocation();
             //var res = await ApiKible(location.Latitude.ToString(), location.Longitude.ToString());
@@ -41,9 +42,13 @@ namespace KıblePusulası_Mobil
         {   
             var dt = e.Reading;
             a.Rotation =(360-(float)dt.HeadingMagneticNorth);
-            b.Rotation = (360 - (float)dt.HeadingMagneticNorth+(float)SplashActivity1.derece);
-            txt1.Text = Convert.ToInt32(dt.HeadingMagneticNorth).ToString()+ "°";
+            float opa=b.Rotation = (360 - (float)dt.HeadingMagneticNorth+(float)SplashActivity1.derece);
+           int opac=(int)opa;
 
+             double opcaty= System.Math.Cos(opa*(Math.PI/180));
+            d.Alpha = (float)opcaty;
+            txt1.Text = Convert.ToInt32(dt.HeadingMagneticNorth).ToString()+ "°";
+            
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
