@@ -1,9 +1,21 @@
 EzanVakti_Mobil.SplashActivity1, KıblePusulası_Mobil;crc6432572f8271a6e692.SplashActivity1
 EzanVakti_Mobil.SplashActivity1;crc6432572f8271a6e692.SplashActivity1
 ezanvakti_mobil.SplashActivity1;crc6432572f8271a6e692.SplashActivity1
+KıblePusulası_Mobil.Baglanti, KıblePusulası_Mobil;crc6442453ce9e3b64c20.Baglanti
+KıblePusulası_Mobil.Baglanti;crc6442453ce9e3b64c20.Baglanti
+kıblepusulası_mobil.Baglanti;crc6442453ce9e3b64c20.Baglanti
+KıblePusulası_Mobil.BrowserActivity, KıblePusulası_Mobil;crc6442453ce9e3b64c20.BrowserActivity
+KıblePusulası_Mobil.BrowserActivity;crc6442453ce9e3b64c20.BrowserActivity
+kıblepusulası_mobil.BrowserActivity;crc6442453ce9e3b64c20.BrowserActivity
+KıblePusulası_Mobil.FragmentLocation, KıblePusulası_Mobil;crc6442453ce9e3b64c20.FragmentLocation
+KıblePusulası_Mobil.FragmentLocation;crc6442453ce9e3b64c20.FragmentLocation
+kıblepusulası_mobil.FragmentLocation;crc6442453ce9e3b64c20.FragmentLocation
 KıblePusulası_Mobil.MainActivity, KıblePusulası_Mobil;crc6442453ce9e3b64c20.MainActivity
 KıblePusulası_Mobil.MainActivity;crc6442453ce9e3b64c20.MainActivity
 kıblepusulası_mobil.MainActivity;crc6442453ce9e3b64c20.MainActivity
+KıblePusulası_Mobil.MenuActivity, KıblePusulası_Mobil;crc6442453ce9e3b64c20.MenuActivity
+KıblePusulası_Mobil.MenuActivity;crc6442453ce9e3b64c20.MenuActivity
+kıblepusulası_mobil.MenuActivity;crc6442453ce9e3b64c20.MenuActivity
 AndroidX.Activity.IFullyDrawnReporterOwner, Xamarin.AndroidX.Activity;androidx.activity.FullyDrawnReporterOwner
 AndroidX.Activity.IFullyDrawnReporterOwner;androidx.activity.FullyDrawnReporterOwner
 androidx.activity.FullyDrawnReporterOwner;androidx.activity.FullyDrawnReporterOwner
@@ -403,6 +415,9 @@ androidx.coordinatorlayout.widget.CoordinatorLayout$DispatchChangeEvent;androidx
 Android.Support.V4.OS.IResultReceiver, Xamarin.AndroidX.Core;android.support.v4.os.IResultReceiver
 Android.Support.V4.OS.IResultReceiver;android.support.v4.os.IResultReceiver
 android.support.v4.os.IResultReceiver;android.support.v4.os.IResultReceiver
+Android.Support.V4.OS.IResultReceiver2, Xamarin.AndroidX.Core;android.support.v4.os.IResultReceiver2
+Android.Support.V4.OS.IResultReceiver2;android.support.v4.os.IResultReceiver2
+android.support.v4.os.IResultReceiver2;android.support.v4.os.IResultReceiver2
 Android.Support.V4.App.INotificationSideChannel, Xamarin.AndroidX.Core;android.support.v4.app.INotificationSideChannel
 Android.Support.V4.App.INotificationSideChannel;android.support.v4.app.INotificationSideChannel
 android.support.v4.app.INotificationSideChannel;android.support.v4.app.INotificationSideChannel
@@ -535,6 +550,9 @@ androidx.core.app.NotificationCompat$Action$SemanticAction;androidx.core.app.Not
 AndroidX.Core.App.NotificationCompat+IBadgeIconType, Xamarin.AndroidX.Core;androidx.core.app.NotificationCompat$BadgeIconType
 AndroidX.Core.App.NotificationCompat.IBadgeIconType;androidx.core.app.NotificationCompat$BadgeIconType
 androidx.core.app.NotificationCompat$BadgeIconType;androidx.core.app.NotificationCompat$BadgeIconType
+AndroidX.Core.App.NotificationCompat+CallStyle+ICallType, Xamarin.AndroidX.Core;androidx.core.app.NotificationCompat$CallStyle$CallType
+AndroidX.Core.App.NotificationCompat.CallStyle.ICallType;androidx.core.app.NotificationCompat$CallStyle$CallType
+androidx.core.app.NotificationCompat$CallStyle$CallType;androidx.core.app.NotificationCompat$CallStyle$CallType
 AndroidX.Core.App.NotificationCompat+IExtender, Xamarin.AndroidX.Core;androidx.core.app.NotificationCompat$Extender
 AndroidX.Core.App.NotificationCompat.IExtender;androidx.core.app.NotificationCompat$Extender
 androidx.core.app.NotificationCompat$Extender;androidx.core.app.NotificationCompat$Extender
@@ -550,6 +568,9 @@ androidx.core.app.NotificationCompat$ServiceNotificationBehavior;androidx.core.a
 AndroidX.Core.App.NotificationCompat+IStreamType, Xamarin.AndroidX.Core;androidx.core.app.NotificationCompat$StreamType
 AndroidX.Core.App.NotificationCompat.IStreamType;androidx.core.app.NotificationCompat$StreamType
 androidx.core.app.NotificationCompat$StreamType;androidx.core.app.NotificationCompat$StreamType
+AndroidX.Core.App.PendingIntentCompat+IFlags, Xamarin.AndroidX.Core;androidx.core.app.PendingIntentCompat$Flags
+AndroidX.Core.App.PendingIntentCompat.IFlags;androidx.core.app.PendingIntentCompat$Flags
+androidx.core.app.PendingIntentCompat$Flags;androidx.core.app.PendingIntentCompat$Flags
 AndroidX.Core.App.RemoteInput+IEditChoicesBeforeSending, Xamarin.AndroidX.Core;androidx.core.app.RemoteInput$EditChoicesBeforeSending
 AndroidX.Core.App.RemoteInput.IEditChoicesBeforeSending;androidx.core.app.RemoteInput$EditChoicesBeforeSending
 androidx.core.app.RemoteInput$EditChoicesBeforeSending;androidx.core.app.RemoteInput$EditChoicesBeforeSending
@@ -1249,6 +1270,9 @@ com.google.android.material.color.DynamicColors$OnAppliedCallback;com.google.and
 Google.Android.Material.Color.DynamicColors+IPrecondition, Xamarin.Google.Android.Material;com.google.android.material.color.DynamicColors$Precondition
 Google.Android.Material.Color.DynamicColors.IPrecondition;com.google.android.material.color.DynamicColors$Precondition
 com.google.android.material.color.DynamicColors$Precondition;com.google.android.material.color.DynamicColors$Precondition
+Google.Android.Material.Color.IColorResourcesOverride, Xamarin.Google.Android.Material;com.google.android.material.color.ColorResourcesOverride
+Google.Android.Material.Color.IColorResourcesOverride;com.google.android.material.color.ColorResourcesOverride
+com.google.android.material.color.ColorResourcesOverride;com.google.android.material.color.ColorResourcesOverride
 Google.Android.Material.Color.Utilities.IPointProvider, Xamarin.Google.Android.Material;com.google.android.material.color.utilities.PointProvider
 Google.Android.Material.Color.Utilities.IPointProvider;com.google.android.material.color.utilities.PointProvider
 com.google.android.material.color.utilities.PointProvider;com.google.android.material.color.utilities.PointProvider
@@ -1282,6 +1306,12 @@ com.google.android.material.checkbox.MaterialCheckBox$OnErrorChangedListener;com
 Google.Android.Material.CheckBox.MaterialCheckBox+IOnErrorChangedListenerImplementor, Xamarin.Google.Android.Material;mono.com.google.android.material.checkbox.MaterialCheckBox_OnErrorChangedListenerImplementor
 Google.Android.Material.CheckBox.MaterialCheckBox.IOnErrorChangedListenerImplementor;mono.com.google.android.material.checkbox.MaterialCheckBox_OnErrorChangedListenerImplementor
 mono.com.google.android.material.checkbox.MaterialCheckBox_OnErrorChangedListenerImplementor;mono.com.google.android.material.checkbox.MaterialCheckBox_OnErrorChangedListenerImplementor
+Google.Android.Material.Carousel.IOnMaskChangedListener, Xamarin.Google.Android.Material;com.google.android.material.carousel.OnMaskChangedListener
+Google.Android.Material.Carousel.IOnMaskChangedListener;com.google.android.material.carousel.OnMaskChangedListener
+com.google.android.material.carousel.OnMaskChangedListener;com.google.android.material.carousel.OnMaskChangedListener
+Google.Android.Material.Carousel.IOnMaskChangedListenerImplementor, Xamarin.Google.Android.Material;mono.com.google.android.material.carousel.OnMaskChangedListenerImplementor
+Google.Android.Material.Carousel.IOnMaskChangedListenerImplementor;mono.com.google.android.material.carousel.OnMaskChangedListenerImplementor
+mono.com.google.android.material.carousel.OnMaskChangedListenerImplementor;mono.com.google.android.material.carousel.OnMaskChangedListenerImplementor
 Google.Android.Material.Card.MaterialCardView+ICheckedIconGravity, Xamarin.Google.Android.Material;com.google.android.material.card.MaterialCardView$CheckedIconGravity
 Google.Android.Material.Card.MaterialCardView.ICheckedIconGravity;com.google.android.material.card.MaterialCardView$CheckedIconGravity
 com.google.android.material.card.MaterialCardView$CheckedIconGravity;com.google.android.material.card.MaterialCardView$CheckedIconGravity
@@ -1291,6 +1321,9 @@ com.google.android.material.card.MaterialCardView$OnCheckedChangeListener;com.go
 Google.Android.Material.Card.MaterialCardView+IOnCheckedChangeListenerImplementor, Xamarin.Google.Android.Material;mono.com.google.android.material.card.MaterialCardView_OnCheckedChangeListenerImplementor
 Google.Android.Material.Card.MaterialCardView.IOnCheckedChangeListenerImplementor;mono.com.google.android.material.card.MaterialCardView_OnCheckedChangeListenerImplementor
 mono.com.google.android.material.card.MaterialCardView_OnCheckedChangeListenerImplementor;mono.com.google.android.material.card.MaterialCardView_OnCheckedChangeListenerImplementor
+Google.Android.Material.Canvas.CanvasCompat+ICanvasOperation, Xamarin.Google.Android.Material;com.google.android.material.canvas.CanvasCompat$CanvasOperation
+Google.Android.Material.Canvas.CanvasCompat.ICanvasOperation;com.google.android.material.canvas.CanvasCompat$CanvasOperation
+com.google.android.material.canvas.CanvasCompat$CanvasOperation;com.google.android.material.canvas.CanvasCompat$CanvasOperation
 Google.Android.Material.Button.MaterialButton+IIconGravity, Xamarin.Google.Android.Material;com.google.android.material.button.MaterialButton$IconGravity
 Google.Android.Material.Button.MaterialButton.IIconGravity;com.google.android.material.button.MaterialButton$IconGravity
 com.google.android.material.button.MaterialButton$IconGravity;com.google.android.material.button.MaterialButton$IconGravity
@@ -2239,6 +2272,18 @@ kotlin.collections.Grouping;kotlin.collections.Grouping
 Xamarin.KotlinX.Coroutines.ICancellableContinuation, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.CancellableContinuation
 Xamarin.KotlinX.Coroutines.ICancellableContinuation;kotlinx.coroutines.CancellableContinuation
 kotlinx.coroutines.CancellableContinuation;kotlinx.coroutines.CancellableContinuation
+Xamarin.KotlinX.Coroutines.IChildHandle, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.ChildHandle
+Xamarin.KotlinX.Coroutines.IChildHandle;kotlinx.coroutines.ChildHandle
+kotlinx.coroutines.ChildHandle;kotlinx.coroutines.ChildHandle
+Xamarin.KotlinX.Coroutines.IChildJob, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.ChildJob
+Xamarin.KotlinX.Coroutines.IChildJob;kotlinx.coroutines.ChildJob
+kotlinx.coroutines.ChildJob;kotlinx.coroutines.ChildJob
+Xamarin.KotlinX.Coroutines.ICompletableDeferred, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.CompletableDeferred
+Xamarin.KotlinX.Coroutines.ICompletableDeferred;kotlinx.coroutines.CompletableDeferred
+kotlinx.coroutines.CompletableDeferred;kotlinx.coroutines.CompletableDeferred
+Xamarin.KotlinX.Coroutines.ICompletableJob, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.CompletableJob
+Xamarin.KotlinX.Coroutines.ICompletableJob;kotlinx.coroutines.CompletableJob
+kotlinx.coroutines.CompletableJob;kotlinx.coroutines.CompletableJob
 Xamarin.KotlinX.Coroutines.ICopyableThreadContextElement, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.CopyableThreadContextElement
 Xamarin.KotlinX.Coroutines.ICopyableThreadContextElement;kotlinx.coroutines.CopyableThreadContextElement
 kotlinx.coroutines.CopyableThreadContextElement;kotlinx.coroutines.CopyableThreadContextElement
@@ -2251,6 +2296,9 @@ kotlinx.coroutines.CoroutineExceptionHandler;kotlinx.coroutines.CoroutineExcepti
 Xamarin.KotlinX.Coroutines.ICoroutineScope, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.CoroutineScope
 Xamarin.KotlinX.Coroutines.ICoroutineScope;kotlinx.coroutines.CoroutineScope
 kotlinx.coroutines.CoroutineScope;kotlinx.coroutines.CoroutineScope
+Xamarin.KotlinX.Coroutines.IDeferred, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.Deferred
+Xamarin.KotlinX.Coroutines.IDeferred;kotlinx.coroutines.Deferred
+kotlinx.coroutines.Deferred;kotlinx.coroutines.Deferred
 Xamarin.KotlinX.Coroutines.IDelay, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.Delay
 Xamarin.KotlinX.Coroutines.IDelay;kotlinx.coroutines.Delay
 kotlinx.coroutines.Delay;kotlinx.coroutines.Delay
@@ -2269,15 +2317,42 @@ kotlinx.coroutines.FlowPreview;kotlinx.coroutines.FlowPreview
 Xamarin.KotlinX.Coroutines.IInternalCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.InternalCoroutinesApi
 Xamarin.KotlinX.Coroutines.IInternalCoroutinesApi;kotlinx.coroutines.InternalCoroutinesApi
 kotlinx.coroutines.InternalCoroutinesApi;kotlinx.coroutines.InternalCoroutinesApi
+Xamarin.KotlinX.Coroutines.IJob, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.Job
+Xamarin.KotlinX.Coroutines.IJob;kotlinx.coroutines.Job
+kotlinx.coroutines.Job;kotlinx.coroutines.Job
 Xamarin.KotlinX.Coroutines.IObsoleteCoroutinesApi, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.ObsoleteCoroutinesApi
 Xamarin.KotlinX.Coroutines.IObsoleteCoroutinesApi;kotlinx.coroutines.ObsoleteCoroutinesApi
 kotlinx.coroutines.ObsoleteCoroutinesApi;kotlinx.coroutines.ObsoleteCoroutinesApi
+Xamarin.KotlinX.Coroutines.IParentJob, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.ParentJob
+Xamarin.KotlinX.Coroutines.IParentJob;kotlinx.coroutines.ParentJob
+kotlinx.coroutines.ParentJob;kotlinx.coroutines.ParentJob
 Xamarin.KotlinX.Coroutines.IThreadContextElement, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.ThreadContextElement
 Xamarin.KotlinX.Coroutines.IThreadContextElement;kotlinx.coroutines.ThreadContextElement
 kotlinx.coroutines.ThreadContextElement;kotlinx.coroutines.ThreadContextElement
+Xamarin.KotlinX.Coroutines.Sync.IMutex, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.sync.Mutex
+Xamarin.KotlinX.Coroutines.Sync.IMutex;kotlinx.coroutines.sync.Mutex
+kotlinx.coroutines.sync.Mutex;kotlinx.coroutines.sync.Mutex
 Xamarin.KotlinX.Coroutines.Sync.ISemaphore, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.sync.Semaphore
 Xamarin.KotlinX.Coroutines.Sync.ISemaphore;kotlinx.coroutines.sync.Semaphore
 kotlinx.coroutines.sync.Semaphore;kotlinx.coroutines.sync.Semaphore
+Xamarin.KotlinX.Coroutines.Selects.ISelectBuilder, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.selects.SelectBuilder
+Xamarin.KotlinX.Coroutines.Selects.ISelectBuilder;kotlinx.coroutines.selects.SelectBuilder
+kotlinx.coroutines.selects.SelectBuilder;kotlinx.coroutines.selects.SelectBuilder
+Xamarin.KotlinX.Coroutines.Selects.ISelectClause, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.selects.SelectClause
+Xamarin.KotlinX.Coroutines.Selects.ISelectClause;kotlinx.coroutines.selects.SelectClause
+kotlinx.coroutines.selects.SelectClause;kotlinx.coroutines.selects.SelectClause
+Xamarin.KotlinX.Coroutines.Selects.ISelectClause0, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.selects.SelectClause0
+Xamarin.KotlinX.Coroutines.Selects.ISelectClause0;kotlinx.coroutines.selects.SelectClause0
+kotlinx.coroutines.selects.SelectClause0;kotlinx.coroutines.selects.SelectClause0
+Xamarin.KotlinX.Coroutines.Selects.ISelectClause1, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.selects.SelectClause1
+Xamarin.KotlinX.Coroutines.Selects.ISelectClause1;kotlinx.coroutines.selects.SelectClause1
+kotlinx.coroutines.selects.SelectClause1;kotlinx.coroutines.selects.SelectClause1
+Xamarin.KotlinX.Coroutines.Selects.ISelectClause2, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.selects.SelectClause2
+Xamarin.KotlinX.Coroutines.Selects.ISelectClause2;kotlinx.coroutines.selects.SelectClause2
+kotlinx.coroutines.selects.SelectClause2;kotlinx.coroutines.selects.SelectClause2
+Xamarin.KotlinX.Coroutines.Selects.ISelectInstance, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.selects.SelectInstance
+Xamarin.KotlinX.Coroutines.Selects.ISelectInstance;kotlinx.coroutines.selects.SelectInstance
+kotlinx.coroutines.selects.SelectInstance;kotlinx.coroutines.selects.SelectInstance
 Xamarin.KotlinX.Coroutines.Flow.IFlow, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.flow.Flow
 Xamarin.KotlinX.Coroutines.Flow.IFlow;kotlinx.coroutines.flow.Flow
 kotlinx.coroutines.flow.Flow;kotlinx.coroutines.flow.Flow
@@ -2299,6 +2374,24 @@ kotlinx.coroutines.flow.SharingStarted;kotlinx.coroutines.flow.SharingStarted
 Xamarin.KotlinX.Coroutines.Flow.IStateFlow, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.flow.StateFlow
 Xamarin.KotlinX.Coroutines.Flow.IStateFlow;kotlinx.coroutines.flow.StateFlow
 kotlinx.coroutines.flow.StateFlow;kotlinx.coroutines.flow.StateFlow
+Xamarin.KotlinX.Coroutines.Channels.IActorScope, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.channels.ActorScope
+Xamarin.KotlinX.Coroutines.Channels.IActorScope;kotlinx.coroutines.channels.ActorScope
+kotlinx.coroutines.channels.ActorScope;kotlinx.coroutines.channels.ActorScope
+Xamarin.KotlinX.Coroutines.Channels.IBroadcastChannel, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.channels.BroadcastChannel
+Xamarin.KotlinX.Coroutines.Channels.IBroadcastChannel;kotlinx.coroutines.channels.BroadcastChannel
+kotlinx.coroutines.channels.BroadcastChannel;kotlinx.coroutines.channels.BroadcastChannel
+Xamarin.KotlinX.Coroutines.Channels.IChannel, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.channels.Channel
+Xamarin.KotlinX.Coroutines.Channels.IChannel;kotlinx.coroutines.channels.Channel
+kotlinx.coroutines.channels.Channel;kotlinx.coroutines.channels.Channel
 Xamarin.KotlinX.Coroutines.Channels.IChannelIterator, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.channels.ChannelIterator
 Xamarin.KotlinX.Coroutines.Channels.IChannelIterator;kotlinx.coroutines.channels.ChannelIterator
 kotlinx.coroutines.channels.ChannelIterator;kotlinx.coroutines.channels.ChannelIterator
+Xamarin.KotlinX.Coroutines.Channels.IProducerScope, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.channels.ProducerScope
+Xamarin.KotlinX.Coroutines.Channels.IProducerScope;kotlinx.coroutines.channels.ProducerScope
+kotlinx.coroutines.channels.ProducerScope;kotlinx.coroutines.channels.ProducerScope
+Xamarin.KotlinX.Coroutines.Channels.IReceiveChannel, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.channels.ReceiveChannel
+Xamarin.KotlinX.Coroutines.Channels.IReceiveChannel;kotlinx.coroutines.channels.ReceiveChannel
+kotlinx.coroutines.channels.ReceiveChannel;kotlinx.coroutines.channels.ReceiveChannel
+Xamarin.KotlinX.Coroutines.Channels.ISendChannel, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.channels.SendChannel
+Xamarin.KotlinX.Coroutines.Channels.ISendChannel;kotlinx.coroutines.channels.SendChannel
+kotlinx.coroutines.channels.SendChannel;kotlinx.coroutines.channels.SendChannel

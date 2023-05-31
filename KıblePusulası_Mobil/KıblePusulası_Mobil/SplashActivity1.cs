@@ -6,6 +6,7 @@ using Android.Views;
 using Android.Widget;
 
 using KıblePusulası_Mobil;
+using KıblePusulası_Mobil.Resources;
 using Picasso.Services;
 using System;
 using System.Collections.Generic;
@@ -39,6 +40,8 @@ namespace EzanVakti_Mobil
         {
             var location = await GetCurrentLocation();
             var res = await ApiKible(location.Latitude.ToString(), location.Longitude.ToString());
+            var adResult = await konumApi.streetApi(location.Latitude.ToString(), location.Longitude.ToString());
+            //adResult.
             derece = res.data.direction;
             await Task.Delay(TimeSpan.FromSeconds(1));
    
@@ -56,6 +59,7 @@ namespace EzanVakti_Mobil
             var result = await httpService.ProcessApi<Picasso.Kible.Root>(KibleApi);
             return result;
         }
+
         async Task<Location> GetCurrentLocation()
         {
             try

@@ -11,6 +11,8 @@ using Picasso.Services;
 using Android.Widget;
 using static System.Net.Mime.MediaTypeNames;
 using EzanVakti_Mobil;
+using Android.Views;
+using Android.Content;
 
 namespace KıblePusulası_Mobil
 {
@@ -20,6 +22,8 @@ namespace KıblePusulası_Mobil
         CancellationTokenSource cts;
         AppCompatImageView a,b,c,d;
         AppCompatTextView txt1;
+        RelativeLayout menubtnRlyt;
+        View v;
         double derece;
         protected async override void OnCreate(Bundle savedInstanceState)
         {
@@ -31,12 +35,39 @@ namespace KıblePusulası_Mobil
             b = FindViewById<AppCompatImageView>(Resource.Id.compassRlytCompassArrow);
             d= FindViewById<AppCompatImageView>(Resource.Id.compassImgKaaba);
             txt1 = FindViewById<AppCompatTextView>(Resource.Id.compassTvDegree);
+            menubtnRlyt = FindViewById<RelativeLayout>(Resource.Id.mainRlytMenuBtn);
+            menubtnRlyt.Click += delegate
+            {
+                onMainClick(v);
+            };
           //  var location = await GetCurrentLocation();
             //var res = await ApiKible(location.Latitude.ToString(), location.Longitude.ToString());
             //derece = res.data.direction;
             Compass.Start(SensorSpeed.Game);
             Compass.ReadingChanged += pusula;
          //  b.Rotation = (360 - 171);
+        }
+        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            if (data.GetStringExtra("menu") == "dinigun")
+            {
+                Bundle bundle = new Bundle();
+                bundle.PutBoolean("status", true);
+                StartActivity(new Intent(ApplicationContext, typeof(BrowserActivity)));
+
+            }
+
+            else if (data.GetStringExtra("menu") == "konum")
+            {
+                Bundle bundle = new Bundle();
+                bundle.PutBoolean("status", false);
+
+                FragmentLocation aylikfragment = new FragmentLocation();
+                AndroidX.Fragment.App.FragmentManager manager = this.SupportFragmentManager;
+                aylikfragment.Arguments = bundle;
+                aylikfragment.Show(manager, "dialog");
+            }
         }
         public void pusula(object sender, CompassChangedEventArgs e)
         {   
@@ -49,6 +80,11 @@ namespace KıblePusulası_Mobil
             d.Alpha = (float)opcaty;
             txt1.Text = Convert.ToInt32(dt.HeadingMagneticNorth).ToString()+ "°";
             
+        }
+        public void onMainClick(View v)
+        {
+         //   StartActivity(new Intent(ApplicationContext, typeof(BrowserActivity)));
+            StartActivityForResult(new Intent(ApplicationContext, typeof(MenuActivity)), 12);
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

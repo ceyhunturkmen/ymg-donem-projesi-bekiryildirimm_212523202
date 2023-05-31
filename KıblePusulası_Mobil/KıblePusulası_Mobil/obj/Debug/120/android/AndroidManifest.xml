@@ -24,7 +24,9 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:name="crc6442453ce9e3b64c20.BrowserActivity" android:label="BrowserActivity" />
     <activity android:name="crc6442453ce9e3b64c20.MainActivity" android:label="@string/app_name" android:theme="@style/AppTheme" />
+    <activity android:name="crc6442453ce9e3b64c20.MenuActivity" android:label="MenuActivity" android:theme="@style/AppTheme.CustomTheme" />
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
     <receiver android:name="crc64a0e0a82d0db9a07d.BatteryBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Battery Broadcast Receiver" />
     <receiver android:name="crc64a0e0a82d0db9a07d.EnergySaverBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" />
