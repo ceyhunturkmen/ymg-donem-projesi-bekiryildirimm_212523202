@@ -1,0 +1,47 @@
+using System;
+using Xamarin.Essentials;
+
+namespace KiblePusulasiUygulamasi
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            GetQiblaDirection();
+        }
+
+        static void GetQiblaDirection()
+        {
+            try
+            {
+                var compass = new Compass();
+                compass.Start();
+
+                compass.ReadingChanged += (sender, e) =>
+                {
+                    var heading = e.Reading.HeadingMagneticNorth;
+                    var qiblaDirection = 0; // Kabe'nin yönüne göre hesaplanacak açı
+
+                    if (heading > qiblaDirection)
+                    {
+                        var deviation = heading - qiblaDirection;
+                        Console.WriteLine($"Kıbleye göre {deviation} derece sağda.");
+                    }
+                    else
+                    {
+                        var deviation = qiblaDirection - heading;
+                        Console.WriteLine($"Kıbleye göre {deviation} derece solda.");
+                    }
+                };
+            }
+            catch (FeatureNotSupportedException)
+            {
+                Console.WriteLine("Cihazınız pusula özelliğini desteklemiyor.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Bir hata oluştu: {ex.Message}");
+            }
+        }
+    }
+}
