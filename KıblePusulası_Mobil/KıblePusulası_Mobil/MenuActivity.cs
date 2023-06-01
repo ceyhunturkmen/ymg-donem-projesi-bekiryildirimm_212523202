@@ -26,10 +26,10 @@ namespace KıblePusulası_Mobil
          SetContentView(Resource.Layout.activity_menu);
             // Create your application here
             closebtn = FindViewById<RelativeLayout>(Resource.Id.menuRlytCloseBtn);
-          //  settingbtn = FindViewById<LinearLayoutCompat>(Resource.Id.menuLlytSettingsBtn);
+      
              locationbtn= FindViewById<LinearLayoutCompat>(Resource.Id.menuLlytLocationsBtn);
              dinigunlerbtn= FindViewById<LinearLayoutCompat>(Resource.Id.menuLlytReligiousDaysBtn);
-            // hicribtn= FindViewById<LinearLayoutCompat>(Resource.Id.menuLlytHijriBtn);
+          
 
             dinigunlerbtn.Click += delegate
             {
@@ -44,10 +44,7 @@ namespace KıblePusulası_Mobil
             {
                 onMenuClick(v);
             };
-         /*   settingbtn.Click += delegate
-            {
-                onSettingClick(v);
-            };*/
+
           
         }
 
@@ -59,13 +56,7 @@ namespace KıblePusulası_Mobil
             SetResult(Result.Ok, intent);
             Finish();
         }
-     /*   public void onMenuHicriClick(View v)
-        {
-            Intent intent = new Intent();
-            intent.PutExtra("menu", "hicri");
-            SetResult(Result.Ok, intent);
-            Finish();
-        }*/
+
         public void onLocationClick(View v)
         {
             Intent intent = new Intent();
@@ -75,28 +66,10 @@ namespace KıblePusulası_Mobil
         }
         public void onMenuClick(View v) {
             Intent intent = new Intent();
-          //  intent.PutExtra("menu", "konum");
+ 
             SetResult(Result.Canceled, intent);
             this.Finish();
         }
-      /*  public void onSettingClick(View v)
-        {
-            Intent intent = new Intent();
-            intent.PutExtra("menu", "ayarlar");
-            SetResult(Result.Ok, intent);
-            Finish();
-           
-            Bundle bundle = new Bundle();
-            bundle.PutBoolean("status", true);
 
-            FragmentMonthly aylikfragment = new FragmentMonthly();
-            AndroidX.Fragment.App.FragmentManager manager = this.SupportFragmentManager;
-            aylikfragment.Arguments = bundle;
-            
-            aylikfragment.Show(manager, "dialog");
-            
-           // Finish();
-
-        } */
     }
 }

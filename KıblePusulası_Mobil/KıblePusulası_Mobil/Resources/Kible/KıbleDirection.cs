@@ -11,7 +11,7 @@ using System.Text;
 
 namespace Picasso.Kible
 {
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
+  
     public class Data
     {
         public double latitude { get; set; }

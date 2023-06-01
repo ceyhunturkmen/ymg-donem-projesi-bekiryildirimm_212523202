@@ -40,12 +40,10 @@ namespace KıblePusulası_Mobil
             {
                 onMainClick(v);
             };
-          //  var location = await GetCurrentLocation();
-            //var res = await ApiKible(location.Latitude.ToString(), location.Longitude.ToString());
-            //derece = res.data.direction;
+
             Compass.Start(SensorSpeed.Game);
             Compass.ReadingChanged += pusula;
-         //  b.Rotation = (360 - 171);
+
         }
         protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
         {
@@ -75,15 +73,32 @@ namespace KıblePusulası_Mobil
             a.Rotation =(360-(float)dt.HeadingMagneticNorth);
             float opa=b.Rotation = (360 - (float)dt.HeadingMagneticNorth+(float)SplashActivity1.derece);
            int opac=(int)opa;
+           
+            double opcaty= System.Math.Cos(opa*(Math.PI/180));
+            if(opcaty>0.999999)
+            {
+                try
+                {
+                    var duration = TimeSpan.FromMilliseconds(300);
+                    Vibration.Vibrate(duration);
+                    
+                }
+                catch(FeatureNotSupportedException ex1)
+                {
 
-             double opcaty= System.Math.Cos(opa*(Math.PI/180));
+                }
+                catch(Exception ex)
+                {
+
+                }
+            }
             d.Alpha = (float)opcaty;
             txt1.Text = Convert.ToInt32(dt.HeadingMagneticNorth).ToString()+ "°";
             
         }
         public void onMainClick(View v)
         {
-         //   StartActivity(new Intent(ApplicationContext, typeof(BrowserActivity)));
+ 
             StartActivityForResult(new Intent(ApplicationContext, typeof(MenuActivity)), 12);
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

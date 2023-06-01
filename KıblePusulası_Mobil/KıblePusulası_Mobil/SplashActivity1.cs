@@ -41,7 +41,7 @@ namespace EzanVakti_Mobil
             var location = await GetCurrentLocation();
             var res = await ApiKible(location.Latitude.ToString(), location.Longitude.ToString());
             var adResult = await konumApi.streetApi(location.Latitude.ToString(), location.Longitude.ToString());
-            //adResult.
+
             derece = res.data.direction;
             await Task.Delay(TimeSpan.FromSeconds(1));
    
