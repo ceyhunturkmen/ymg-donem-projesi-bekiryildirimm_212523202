@@ -6,6 +6,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.Widget;
+using EzanVakti_Mobil;
 using Google.Android.Material.BottomSheet;
 using KıblePusulası_Mobil.Resources;
 using System;
@@ -17,6 +18,7 @@ namespace KıblePusulası_Mobil
 {
     public class FragmentLocation : BottomSheetDialogFragment
     {
+        AppCompatTextView KibleTvDegree;
         public override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -30,6 +32,7 @@ namespace KıblePusulası_Mobil
             base.OnCreateView(inflater, container, savedInstanceState);
             var view = inflater.Inflate(Resource.Layout.fragment_bottomsheet_location, container, false);
             view.FindViewById<AppCompatTextView>(Resource.Id.CurrentLocationtxt).Text = konumApi.fulladres.Replace(", ", "/");
+            view.FindViewById<AppCompatTextView>(Resource.Id.KibleTvDegree).Text = "Kıble Açısı:" + SplashActivity1.derece.ToString("0.#");
             return view;
         }
     }

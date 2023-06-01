@@ -6,6 +6,7 @@ using Android.Views;
 using Android.Widget;
 
 using KıblePusulası_Mobil;
+using KıblePusulası_Mobil.KibleAciHesaplama;
 using KıblePusulası_Mobil.Resources;
 using Picasso.Services;
 using System;
@@ -39,12 +40,12 @@ namespace EzanVakti_Mobil
         async Task SimulateStartup()
         {
             var location = await GetCurrentLocation();
-            var res = await ApiKible(location.Latitude.ToString(), location.Longitude.ToString());
-            var adResult = await konumApi.streetApi(location.Latitude.ToString(), location.Longitude.ToString());
+         //   var res = await ApiKible(location.Latitude.ToString(), location.Longitude.ToString());
+           var adResult = await konumApi.streetApi(location.Latitude.ToString(), location.Longitude.ToString());
 
-            derece = res.data.direction;
-            await Task.Delay(TimeSpan.FromSeconds(1));
-   
+            //derece = res.data.direction;
+            //await Task.Delay(TimeSpan.FromSeconds(1));
+          derece=KibleAcisiHesaplama.KibleAcisiHesapla(location.Latitude,location.Longitude);
                 
                 
 

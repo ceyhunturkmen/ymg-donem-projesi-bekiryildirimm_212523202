@@ -75,7 +75,7 @@ namespace KıblePusulası_Mobil
            int opac=(int)opa;
            
             double opcaty= System.Math.Cos(opa*(Math.PI/180));
-            if(opcaty>0.999999)
+            if(opcaty>=0.999999)
             {
                 try
                 {
